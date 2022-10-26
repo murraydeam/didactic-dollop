@@ -1,0 +1,5 @@
+Create the contact section and content for it, keep it simple. 
+
+Add the CSS for the webpage.
+
+Add additional projects as they are completed
