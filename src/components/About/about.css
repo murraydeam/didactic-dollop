@@ -1,0 +1,9 @@
+.about-container {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+
+.about-details p {
+    max-width: 50rem;
+}

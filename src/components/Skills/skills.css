@@ -1,0 +1,14 @@
+.skills {
+  display: inline-flex;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 20rem;
+}
+
+.skill-icon {
+  background-color: #add8e696;
+  border-radius: 75px;
+  padding: 1rem 1rem;
+}

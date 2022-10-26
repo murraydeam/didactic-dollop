@@ -6,3 +6,17 @@
 .section {
   margin: 15vh auto 0;
 }
+
+.header-button {
+  background-color: #add8e696;
+  font-size: 1.5rem;
+  padding: 0.5rem 1rem;
+  margin: 0;
+  border: 0;
+  box-shadow: none;
+  transition: box-shadow 0.4s;
+}
+
+.header-button:hover {
+  box-shadow: 0 1px 3px rgb(0 0 0 / 0.2);
+}

@@ -1,3 +1,19 @@
 .navi {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-items {
+  display: flex;
+  gap: 0.8rem;
+}
+
+.nav-items button {
+  font-size: 0.75rem;
+  padding: 0.5rem;
+  opacity: .7;
+  background-color: inherit;
+  border: none;
+  /* box-shadow: 0 3px 10px rgb(0 0 0 / 0.2); */
 }
