@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/didactic-dollop/static/css/main.acd6545e.css",
+    "main.css": "/didactic-dollop/static/css/main.17cb782b.css",
     "main.js": "/didactic-dollop/static/js/main.9bd0fa7c.js",
     "static/js/787.32f1a7cf.chunk.js": "/didactic-dollop/static/js/787.32f1a7cf.chunk.js",
     "index.html": "/didactic-dollop/index.html",
-    "main.acd6545e.css.map": "/didactic-dollop/static/css/main.acd6545e.css.map",
+    "main.17cb782b.css.map": "/didactic-dollop/static/css/main.17cb782b.css.map",
     "main.9bd0fa7c.js.map": "/didactic-dollop/static/js/main.9bd0fa7c.js.map",
     "787.32f1a7cf.chunk.js.map": "/didactic-dollop/static/js/787.32f1a7cf.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.acd6545e.css",
+    "static/css/main.17cb782b.css",
     "static/js/main.9bd0fa7c.js"
   ]
 }
