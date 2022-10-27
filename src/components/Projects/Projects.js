@@ -17,19 +17,21 @@ const Projects = () => {
               <div className="stack-item">GIT</div>
             </div>
             <div className="project-description">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Molestias quis doloribus odit illo necessitatibus possimus
-              nesciunt, odio facere harum culpa.
+              <p>
+                This project uses react Actions and Dispatch to control each
+                button. Along with some CSS using Flex. This project also served
+                as my introduction to rem units. I love rem units!
+              </p>
             </div>
           </div>
 
           <a
             className="project-image"
-            href="/"
+            href="https://murraydeam.github.io/Calclulator/"
             target="_blank"
             rel="noreferrer"
           >
-            <img src="https://picsum.photos/id/0/400/400" alt="CalculatorApp" />
+            <img src="img/calculator.png" alt="CalculatorApp" />
           </a>
         </div>
       </div>

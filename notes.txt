@@ -1,4 +1,4 @@
-Create the contact section and content for it, keep it simple. 
+Add My images.
 
 Add the CSS for the webpage.
 
