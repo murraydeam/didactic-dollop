@@ -13,6 +13,7 @@ const Projects = () => {
             <div className="project-stack">
               <div className="stack-item">React</div>
               <div className="stack-item">JS</div>
+              <div className="stack-item">NPM</div>
               <div className="stack-item">CSS</div>
               <div className="stack-item">GIT</div>
             </div>
@@ -43,6 +44,7 @@ const Projects = () => {
             <div className="project-stack">
               <div className="stack-item">React</div>
               <div className="stack-item">JS</div>
+              <div className="stack-item">NPM</div> 
               <div className="stack-item">CSS</div>
               <div className="stack-item">GIT</div>
             </div>
@@ -73,6 +75,7 @@ const Projects = () => {
               <div className="stack-item">JS</div>
               <div className="stack-item">CSS</div>
               <div className="stack-item">GIT</div>
+              <div className="stack-item">NPM</div>
               <div className="stack-item">DOM</div>
             </div>
             <div className="project-description">
