@@ -24,12 +24,6 @@
   background-color: #add8e696;
 }
 
-img {
-  box-shadow: 0 5px 10px rgb(0 0 0 / 0.2);
-  transition: box-shadow 0.4s;
+.project-image img {
   max-width: 500px;
-}
-
-img:hover {
-  box-shadow: 0 10px 15px rgb(0 0 0 / 0.2);
 }

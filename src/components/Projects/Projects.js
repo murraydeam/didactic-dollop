@@ -8,6 +8,36 @@ const Projects = () => {
         <div className="project">
           <div className="project-details">
             <div className="project-title">
+              <h2>Forza Tune</h2>
+            </div>
+            <div className="project-stack">
+              <div className="stack-item">React</div>
+              <div className="stack-item">JS</div>
+              <div className="stack-item">CSS</div>
+              <div className="stack-item">GIT</div>
+            </div>
+            <div className="project-description">
+              <p>
+                This is my first passion project. I created it to aid players of
+                the game Forza Horizon in getting a base tune for their
+                vehicles. Features will continually get added to this project as
+                I discover new needs for the the player base!
+              </p>
+            </div>
+          </div>
+
+          <a
+            className="project-image"
+            href="https://murraydeam.github.io/ForzaQuickTune/"
+            target="_blank"
+            rel="noreferrer preload"
+          >
+            <img src="img/forzatune.png" alt="Forzatune" />
+          </a>
+        </div>
+        <div className="project">
+          <div className="project-details">
+            <div className="project-title">
               <h2>Calculator</h2>
             </div>
             <div className="project-stack">

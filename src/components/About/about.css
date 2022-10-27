@@ -1,9 +1,13 @@
 .about-container {
-    display: flex;
-    align-items: center;
-    gap: 3rem;
+  display: flex;
+  align-items: center;
+  gap: 3rem;
 }
 
 .about-details p {
-    max-width: 50rem;
+  max-width: 35rem;
+}
+
+.my-face img {
+  max-height: 600px;
 }
