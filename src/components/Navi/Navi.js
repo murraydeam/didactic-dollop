@@ -8,8 +8,12 @@ const Navi = () => {
         <h2>Deandre Murray</h2>
       </div>
       <div className="nav-items">
-        <button>Work</button>
-        <button>About</button>
+        <a href="#work" rel="noopener noreferrer">
+          <button>Work</button>
+        </a>
+        <a href="#about" rel="noopener noreferrer">
+          <button>About</button>
+        </a>
         <a
           target="_blank"
           href="https://drive.google.com/file/d/1Njy2tm21RXbm9LnfCrFZI1bnoFeU4Bh2/view?usp=sharing"
