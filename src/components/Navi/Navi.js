@@ -16,7 +16,7 @@ const Navi = () => {
         </a>
         <a
           target="_blank"
-          href="https://drive.google.com/file/d/1Njy2tm21RXbm9LnfCrFZI1bnoFeU4Bh2/view?usp=sharing"
+          href="https://drive.google.com/file/d/1888DWyoWCuNGQ6iIenlUlQ7OMi7eu_ju/view?usp=share_link"
           rel="noreferrer"
         >
           <button>Resume</button>
