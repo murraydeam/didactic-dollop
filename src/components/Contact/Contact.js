@@ -7,7 +7,9 @@ const Contact = () => {
       <div className="contact-header">
         <h2>Let'Chat more!</h2>
       </div>
-      <button className="header-button">Connect</button>
+      <a href="mailto:deandremurray22@gmail.com">
+        <button className="header-button">Connect</button>
+      </a>
     </div>
   );
 };

@@ -27,7 +27,6 @@ const Projects = () => {
               </p>
             </div>
           </div>
-
           <a
             className="project-image"
             href="https://murraydeam.github.io/ForzaQuickTune/"
@@ -40,10 +39,11 @@ const Projects = () => {
         <div className="project">
           <div className="project-details">
             <div className="project-title">
-              <h2>Calculator</h2>
+              <h2>Web Auto</h2>
             </div>
             <div className="project-stack">
               <div className="stack-item">React</div>
+              <div className="stack-item">Tom Tom API</div>
               <div className="stack-item">JS</div>
               <div className="stack-item">NPM</div>
               <div className="stack-item">CSS</div>
@@ -51,20 +51,20 @@ const Projects = () => {
             </div>
             <div className="project-description">
               <p>
-                This project uses react Actions and Dispatch to control each
-                button. Along with some CSS using Flex. This project also served
-                as my introduction to rem units. I love rem units!
+                This project has been created using the Tom Tom api for the map.
+                Theme changes for the car Auto interface along with a useable
+                map are the stars of the show here.
               </p>
             </div>
           </div>
 
           <a
             className="project-image"
-            href="https://murraydeam.github.io/Calclulator/"
+            href="https://murraydeam.github.io/web-auto/"
             target="_blank"
             rel="noreferrer preload"
           >
-            <img src="img/calculator.png" alt="CalculatorApp" />
+            <img src="img/webauto.png" alt="Web Auto" />
           </a>
         </div>
         <div className="project">
