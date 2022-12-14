@@ -1,11 +1,12 @@
 import React from "react";
+import { ProjectContainer } from "../../styles/containers";
 import "./projects.css";
 
 const Projects = () => {
   return (
     <div className="section">
       <div className="projects" id="work">
-        <div className="project">
+        <ProjectContainer className="project">
           <div className="project-details">
             <div className="project-title">
               <h2>Forza Tune</h2>
@@ -35,8 +36,8 @@ const Projects = () => {
           >
             <img src="img/forzatune.png" alt="Forzatune" />
           </a>
-        </div>
-        <div className="project">
+        </ProjectContainer>
+        <ProjectContainer className="project">
           <div className="project-details">
             <div className="project-title">
               <h2>Web Auto</h2>
@@ -66,8 +67,8 @@ const Projects = () => {
           >
             <img src="img/webauto.png" alt="Web Auto" />
           </a>
-        </div>
-        <div className="project">
+        </ProjectContainer>
+        <ProjectContainer className="project">
           <div className="project-details">
             <div className="project-title">
               <h2>Etch-a-Sketch</h2>
@@ -100,7 +101,7 @@ const Projects = () => {
           >
             <img src="img/etch-a-sketch.png" alt="eEtch-a-Sketch" />
           </a>
-        </div>
+        </ProjectContainer>
       </div>
     </div>
   );

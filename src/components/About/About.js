@@ -1,10 +1,11 @@
 import React from "react";
+import { AboutContainer } from "../../styles/containers";
 import "./about.css";
 
 const About = () => {
   return (
     <div className="section">
-      <div className="about-container" id="about">
+      <AboutContainer className="about-container" id="about">
         <div className="my-face">
           <div className="about-title">
             <h2>About Me!</h2>
@@ -27,7 +28,7 @@ const About = () => {
             been a treat similar to my endeavors in development!
           </p>
         </div>
-      </div>
+      </AboutContainer>
     </div>
   );
 };

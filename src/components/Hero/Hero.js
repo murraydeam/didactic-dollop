@@ -1,4 +1,5 @@
 import React from "react";
+import { HeaderContainer } from "../../styles/containers";
 import "./hero.css";
 
 const Hero = () => {
@@ -7,9 +8,9 @@ const Hero = () => {
       <div className="sub-header">
         <h4>It's a me! Mari... Just kidding It's Deandre!</h4>
       </div>
-      <div className="header">
+      <HeaderContainer className="header">
         <h2>Web Developer</h2>
-      </div>
+      </HeaderContainer>
       <div className="header-details">
         <h4>Molding Ideas into Digital Products</h4>
       </div>
