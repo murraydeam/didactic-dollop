@@ -1,17 +1,24 @@
-import React from "react";
+import { DoDisturbAltTwoTone } from "@mui/icons-material";
+import gsap from "gsap";
+import React, { useEffect } from "react";
 import { ProjectContainer } from "../../styles/containers";
 import "./projects.css";
 
 const Projects = () => {
+  useEffect(() => {
+    gsap.fromTo(".animateInOne", { y: 100 }, { y: -100 });
+
+  }, []);
+
   return (
     <div className="section">
-      <div className="projects" id="work">
-        <ProjectContainer className="project">
-          <div className="project-details">
+      <div className="projects " id="work">
+        <ProjectContainer className="project animateInOne">
+          <div className="project-details ">
             <div className="project-title">
               <h2>Forza Tune</h2>
             </div>
-            <div className="project-stack">
+            <div className="project-stack ">
               <div className="stack-item">React</div>
               <div className="stack-item">JS</div>
               <div className="stack-item">NPM</div>
@@ -37,8 +44,8 @@ const Projects = () => {
             <img src="img/forzatune.png" alt="Forzatune" />
           </a>
         </ProjectContainer>
-        <ProjectContainer className="project">
-          <div className="project-details">
+        <ProjectContainer className="project animateInOne">
+          <div className="project-details ">
             <div className="project-title">
               <h2>Web Auto</h2>
             </div>
@@ -68,8 +75,8 @@ const Projects = () => {
             <img src="img/webauto.png" alt="Web Auto" />
           </a>
         </ProjectContainer>
-        <ProjectContainer className="project">
-          <div className="project-details">
+        <ProjectContainer className="project animateInOne">
+          <div className="project-details ">
             <div className="project-title">
               <h2>Etch-a-Sketch</h2>
             </div>
