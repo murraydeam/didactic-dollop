@@ -1,4 +1,3 @@
-import { DoDisturbAltTwoTone } from "@mui/icons-material";
 import gsap from "gsap";
 import React, { useEffect } from "react";
 import { ProjectContainer } from "../../styles/containers";
@@ -6,8 +5,17 @@ import "./projects.css";
 
 const Projects = () => {
   useEffect(() => {
-    gsap.fromTo(".animateInOne", { y: 100 }, { y: -100 });
-
+    gsap.fromTo(
+      ".animateInOne",
+      { y: 100, opacity: 0 },
+      { y: -100, opacity: 1, duration: 1, delay: 0.4 }
+    );
+    gsap.fromTo(
+      ".animateInTwo",
+      { opacity: 0 },
+      { opacity: 1, duration: 1, delay: 0.8 }
+    );
+    gsap.fromTo('.animateInThree', {opacity: 0}, {opacity: 1, duration: 1, delay: 1.2})
   }, []);
 
   return (
@@ -18,7 +26,7 @@ const Projects = () => {
             <div className="project-title">
               <h2>Forza Tune</h2>
             </div>
-            <div className="project-stack ">
+            <div className="project-stack animateInTwo">
               <div className="stack-item">React</div>
               <div className="stack-item">JS</div>
               <div className="stack-item">NPM</div>
@@ -26,7 +34,7 @@ const Projects = () => {
               <div className="stack-item">CSS</div>
               <div className="stack-item">GIT</div>
             </div>
-            <div className="project-description">
+            <div className="project-description animateInThree">
               <p>
                 This is my first passion project. I created it to aid players of
                 the game Forza Horizon in getting a base tune for their
@@ -72,7 +80,7 @@ const Projects = () => {
             target="_blank"
             rel="noreferrer preload"
           >
-            <img src="img/webauto.png" alt="Web Auto" />
+            <img src="../public/img/webauto.png" alt="Web Auto" />
           </a>
         </ProjectContainer>
         <ProjectContainer className="project animateInOne">
