@@ -1,6 +1,7 @@
+import { Tooltip } from "@mui/material";
 import gsap from "gsap";
 import React, { useEffect } from "react";
-import { ProjectContainer } from "../../styles/containers";
+import { ProjectContainer, TipBubble } from "../../styles/containers";
 import "./projects.css";
 
 const Projects = () => {
@@ -15,7 +16,11 @@ const Projects = () => {
       { opacity: 0 },
       { opacity: 1, duration: 1, delay: 0.8 }
     );
-    gsap.fromTo('.animateInThree', {opacity: 0}, {opacity: 1, duration: 1, delay: 1.2})
+    gsap.fromTo(
+      ".animateInThree",
+      { opacity: 0 },
+      { opacity: 1, duration: 1, delay: 1.2 }
+    );
   }, []);
 
   return (
@@ -27,12 +32,39 @@ const Projects = () => {
               <h2>Forza Tune</h2>
             </div>
             <div className="project-stack animateInTwo">
-              <div className="stack-item">React</div>
-              <div className="stack-item">JS</div>
-              <div className="stack-item">NPM</div>
-              <div className="stack-item">Material Design</div>
-              <div className="stack-item">CSS</div>
-              <div className="stack-item">GIT</div>
+              <Tooltip enterDelay={150} title="React" placement="top" arrow>
+                <div className="stack-item">React</div>
+              </Tooltip>
+              <Tooltip
+                enterDelay={150}
+                title="Java Script"
+                placement="top"
+                arrow
+              >
+                <div className="stack-item">JS</div>
+              </Tooltip>
+              <Tooltip enterDelay={150} title="NPM" placement="top" arrow>
+                <div className="stack-item">NPM</div>
+              </Tooltip>
+              <Tooltip
+                enterDelay={150}
+                title="Material Design"
+                placement="top"
+                arrow
+              >
+                <div className="stack-item">Material Design</div>
+              </Tooltip>
+              <Tooltip
+                enterDelay={150}
+                title="Cascading Style Sheets"
+                placement="top"
+                arrow
+              >
+                <div className="stack-item">CSS</div>
+              </Tooltip>
+              <Tooltip enterDelay={150} title="GIT" placement="right" arrow>
+                <div className="stack-item">GIT</div>
+              </Tooltip>
             </div>
             <div className="project-description animateInThree">
               <p>
@@ -58,12 +90,29 @@ const Projects = () => {
               <h2>Web Auto</h2>
             </div>
             <div className="project-stack">
-              <div className="stack-item">React</div>
-              <div className="stack-item">Tom Tom API</div>
-              <div className="stack-item">JS</div>
-              <div className="stack-item">NPM</div>
-              <div className="stack-item">CSS</div>
-              <div className="stack-item">GIT</div>
+              <Tooltip enterDelay={150} title="React" placement="top" arrow>
+                <div className="stack-item">React</div>
+              </Tooltip>
+              <Tooltip enterDelay={150} title="Tom Tom" placement="top" arrow>
+                <div className="stack-item">Tom Tom Api</div>
+              </Tooltip>
+              <Tooltip
+                enterDelay={150}
+                title="Java Script"
+                placement="top"
+                arrow
+              >
+                <div className="stack-item">JS</div>
+              </Tooltip>
+              <Tooltip enterDelay={150} title="NPM" placement="top" arrow>
+                <div className="stack-item">NPM</div>
+              </Tooltip>
+              <Tooltip enterDelay={150} title="CSS" placement="top" arrow>
+                <div className="stack-item">CSS</div>
+              </Tooltip>
+              <Tooltip enterDelay={150} title="GIT" placement="top" arrow>
+                <div className="stack-item">GIT</div>
+              </Tooltip>
             </div>
             <div className="project-description">
               <p>
@@ -80,7 +129,7 @@ const Projects = () => {
             target="_blank"
             rel="noreferrer preload"
           >
-            <img src="../public/img/webauto.png" alt="Web Auto" />
+            <img src="img/webauto.png" alt="Web Auto" />
           </a>
         </ProjectContainer>
         <ProjectContainer className="project animateInOne">
@@ -89,11 +138,27 @@ const Projects = () => {
               <h2>Etch-a-Sketch</h2>
             </div>
             <div className="project-stack">
-              <div className="stack-item">JS</div>
-              <div className="stack-item">CSS</div>
-              <div className="stack-item">GIT</div>
-              <div className="stack-item">NPM</div>
-              <div className="stack-item">DOM</div>
+              <Tooltip
+                enterDelay={150}
+                title="Java Script"
+                placement="top"
+                arrow
+              >
+                <div className="stack-item">JS</div>
+              </Tooltip>
+
+              <Tooltip enterDelay={150} title="NPM" placement="top" arrow>
+                <div className="stack-item">NPM</div>
+              </Tooltip>
+              <Tooltip enterDelay={150} title="CSS" placement="top" arrow>
+                <div className="stack-item">CSS</div>
+              </Tooltip>
+              <Tooltip enterDelay={150} title="GIT" placement="top" arrow>
+                <div className="stack-item">GIT</div>
+              </Tooltip>
+              <Tooltip enterDelay={150} title="DOM" placement="top" arrow>
+                <div className="stack-item">DOM</div>
+              </Tooltip>
             </div>
             <div className="project-description">
               <p>
