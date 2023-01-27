@@ -1,7 +1,7 @@
 import { Tooltip } from "@mui/material";
 import gsap from "gsap";
 import React, { useEffect } from "react";
-import { ProjectContainer, TipBubble } from "../../styles/containers";
+import { ProjectContainer } from "../../styles/containers";
 import "./projects.css";
 
 const Projects = () => {

@@ -1,6 +1,7 @@
-.header {
+.header h2 {
   font-size: 4rem;
-  line-height: 1.5rem;
 }
 
-
+.header p {
+  font-size: 1.5rem;
+}
