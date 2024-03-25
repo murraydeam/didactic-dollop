@@ -23,9 +23,6 @@ const Hero = () => {
   }, []);
   return (
     <div className="section">
-      <div className="sub-header fadeIn">
-        <h4>It's a me! Mari... Just kidding It's Deandre!</h4>
-      </div>
       <HeaderContainer className="header fadeInTwo">
         <h2>Web Developer</h2>
         <p className="fadeInThree">With a background in Technical support!</p>
