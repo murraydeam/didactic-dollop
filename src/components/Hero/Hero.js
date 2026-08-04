@@ -24,8 +24,8 @@ const Hero = () => {
   return (
     <div className="section">
       <HeaderContainer className="header fadeInTwo">
-        <h2>Web Developer</h2>
-        <p className="fadeInThree">With a background in Technical support!</p>
+        <h2>Support Engineer</h2>
+        <p className="fadeInThree">Improving mobility, reliability, and user experience</p>
       </HeaderContainer>
       <div className="header-details fadeInTwo">
         <h4>Molding Ideas into Digital Products</h4>
