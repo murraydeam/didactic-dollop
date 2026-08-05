@@ -2,14 +2,31 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="refresh" content="0; url=https://deandre-murray-azure.vercel.app/">
-  <link rel="canonical" href="https://deandre-murray-azure.vercel.app/">
   <title>Redirecting...</title>
   <script>
-    window.location.replace("https://deandre-murray-azure.vercel.app/" + window.location.pathname + window.location.search);
+    (function() {
+      var targetHost = "https://deandre-murray-azure.vercel.app";
+      var repoName = "/didactic-dollop"; // Leading slash required, no trailing slash
+      
+      var path = window.location.pathname;
+      var search = window.location.search;
+      var hash = window.location.hash;
+
+      // Strip out the /repo-name prefix if it exists at the start of the path
+      if (path.indexOf(repoName) === 0) {
+        path = path.substring(repoName.length);
+      }
+
+      // Ensure path starts with a slash
+      if (!path.startsWith('/')) {
+        path = '/' + path;
+      }
+
+      window.location.replace(targetHost + path + search + hash);
+    })();
   </script>
 </head>
 <body>
-  <p>This site has moved. If you are not redirected automatically, <a href="https://deandre-murray-azure.vercel.app/">click here</a>.</p>
+  <p>This site has moved. <a href="https://deandre-murray-azure.vercel.app">Click here to visit the new URL</a>.</p>
 </body>
 </html>
