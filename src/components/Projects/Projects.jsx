@@ -89,7 +89,7 @@ const Projects = () => {
             <img src="img/forzatune.png" alt="Forzatune" />
           </a>
         </ProjectContainer>
-        <ProjectContainer className="project animateInOne">
+        {/* <ProjectContainer className="project animateInOne">
           <div className="project-details ">
             <div className="project-title">
               <h2>Web Auto</h2>
@@ -136,7 +136,7 @@ const Projects = () => {
           >
             <img src="img/webauto.png" alt="Web Auto" />
           </a>
-        </ProjectContainer>
+        </ProjectContainer> */}
         <ProjectContainer className="project animateInOne">
           <div className="project-details ">
             <div className="project-title">
