@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Redirecting...</title>
+  <script>
+    (function() {
+      var targetHost = "https://deandre-murray-azure.vercel.app";
+      var repoName = "/didactic-dollop"; // Leading slash required, no trailing slash
+      
+      var path = window.location.pathname;
+      var search = window.location.search;
+      var hash = window.location.hash;
+
+      // Strip out the /repo-name prefix if it exists at the start of the path
+      if (path.indexOf(repoName) === 0) {
+        path = path.substring(repoName.length);
+      }
+
+      // Ensure path starts with a slash
+      if (!path.startsWith('/')) {
+        path = '/' + path;
+      }
+
+      window.location.replace(targetHost + path + search + hash);
+    })();
+  </script>
+</head>
+<body>
+  <p>This site has moved. <a href="https://deandre-murray-azure.vercel.app">Click here to visit the new URL</a>.</p>
+</body>
+</html>
