@@ -28,7 +28,7 @@ const Hero = () => {
         <p className="fadeInThree">Improving mobility, reliability, and user experience</p>
       </HeaderContainer>
       <div className="header-details fadeInTwo">
-        <h4>Molding Ideas into Digital Products</h4>
+        <h4>Molding Ideas into Digital Products & Modern Solutions</h4>
       </div>
       <a href="#contact">
         <button className="header-button fadeInTwo">Contact me</button>

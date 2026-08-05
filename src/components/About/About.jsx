@@ -15,7 +15,7 @@ const About = () => {
         <div className="about-details">
           <h2>The Dreamer</h2>
           <p>
-            I'm a completely self taught developer, the journey is a roller
+            I'm completely self taught, the journey is a roller
             coaster. However the challenge I find endearing. I Enjoy having the
             ability to create a product from an idea that pops into my head at
             2AM. Each idea coming with it's own assortment of challenges and new
