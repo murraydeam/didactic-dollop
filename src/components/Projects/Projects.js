@@ -28,7 +28,7 @@ const Projects = () => {
       <div className="projects " id="work">
         <Box className="Title animateInOne">
           <Divider />
-          <h1>Projects</h1>
+          <h1>Web Projects</h1>
           <Divider />
         </Box>
         <ProjectContainer className="project animateInOne">
