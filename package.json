@@ -1,6 +1,7 @@
 {
   "name": "didactic-dollop",
   "version": "0.1.0",
+  "type": "module",
   "homepage": "https://murraydeam.github.io/didactic-dollop",
   "private": false,
   "dependencies": {
