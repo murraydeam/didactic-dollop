@@ -6,12 +6,11 @@ import Hero from "./components/Hero/Hero";
 import Navi from "./components/Navi/Navi";
 import Projects from "./components/Projects/Projects";
 import Skills from "./components/Skills/Skills";
-import { Analytics } from "@vercel/analytics/next"
+
 
 function App() {
   return (
     <div className="App">
-      <Analytics />
       <div className="container">
         <Navi />
         <Hero />
